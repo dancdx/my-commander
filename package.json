@@ -1,0 +1,35 @@
+{
+  "name": "my-commander",
+  "bin": {
+    "simr": "./bin/simr"
+  },
+  "version": "1.0.0",
+  "description": "命令行工具",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "commander": "^2.10.0",
+    "inquirer": "^3.1.1",
+    "lodash": "^4.17.4",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^3.0.2",
+    "path-exists": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancdx/my-commander.git"
+  },
+  "keywords": [
+    "commander"
+  ],
+  "author": "dancdx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancdx/my-commander/issues"
+  },
+  "homepage": "https://github.com/dancdx/my-commander#readme"
+}
